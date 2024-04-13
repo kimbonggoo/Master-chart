@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Master i5 - Reverse Solution</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <section id="img1">
+    <img src="./img/Group 312.png" alt="section-image">
+  </section>
+  <section id="img2">
+    <img src="./img/Group 313.png" alt="section-image">
+  </section>
+  <section id="img3">
+    <img src="./img/Group 314.png" alt="section-image">
+  </section>
+  <section id="img4">
+    <img src="./img/Group 315.png" alt="section-image">
+  </section>
+  <section id="img5">
+    <img src="./img/Group 316.png" alt="section-image">
+  </section>
+  <section id="img6">
+    <img src="./img/Group 325.png" alt="section-image">
+  </section>
+  <section id="img7">
+    <img src="./img/Group 318.png" alt="section-image">
+    <div class="video-box">
+      <video src="./media/masteri5.mp4" controls loop muted></video>
+    </div>
+  </section>
+  <section id="img8">
+    <img src="./img/Group 319.png" alt="section-image">
+    <!-- Swiper -->
+    <div class="swiper analyst__swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="./img/analyst01.png" alt="analyst">
+          <div class="analyst-name">dong hyun kim</div>
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/analyst02.png" alt="analyst">
+          <div class="analyst-name">derek son</div>
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/analyst03.png" alt="analyst">
+          <div class="analyst-name">young min park</div>
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/analyst04.png" alt="analyst">
+          <div class="analyst-name">na ri lee</div>
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/analyst05.png" alt="analyst">
+          <div class="analyst-name">si woo kim</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer">
+    <p class="company__name container">reverse solution</p>
+    <hr>
+    <div class="wrapper container">
+      <p class="description">Name. Bit Solution | Address. Seoul, Korea</p>
+      <p class="copyright">COPYRIGHT © BITSOLUTION ALL RIGHTS RESERVED</p>
+    </div>
+  </footer>
+
+  <!-- SCRIPT -->
+  <script>
+    document.querySelector('video').playbackRate = 2;
+
+    var swiper = new Swiper(".analyst__swiper", {
+      autoplay: {
+        delay: 1,
+        disableOnInteraction: false,
+      },
+      freemode: true,
+      speed: 8e3,
+      loop: true,
+      slidesPerView: 3,
+      spaceBetween: 30,
+    });
+  </script>
+
+</body>
+
+</html>
