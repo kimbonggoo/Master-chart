@@ -33,7 +33,7 @@ section img {
 #img8 {
   position: relative;
 }
-.swiper {
+.analyst__swiper {
   position: absolute;
   top: 30%;
   left: 0;
@@ -65,17 +65,17 @@ section img {
 
 @media (min-width: 1000px) {
   .swiper-slide .analyst-name {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 }
 @media (max-width: 800px) {
   .swiper-slide .analyst-name {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 }
 @media (max-width: 600px) {
   .swiper-slide .analyst-name {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 }
 
