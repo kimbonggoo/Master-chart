@@ -1,100 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="naver-site-verification" content="420abc408da0cf8ff0652d94e4102bcecda3633f" />
-  <meta name="google-site-verification" content="N7Mad2FZmbambAik5G9k2bwEim4PhFlg5-k__710p08" />
-  <title>Master Chart - Reverse Solution</title>
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="마스터 차트" />
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="./style.css">
-</head>
+    <meta name="keywords" content="마스터 차트,AI 차트,인공지능,주식,코인,해외선물,보조지표,자동매매,매매신호" />
+    <meta name="description" content="투자의 미래는 마스터로 시작한다! 매우 직관적이면서도 스마트한 투자 방식으로 새로운 미래를 경험해보세요!" />
+    <meta property="og:description" content="투자의 미래는 마스터로 시작한다! 매우 직관적이면서도 스마트한 투자 방식으로 새로운 미래를 경험해보세요!" />
 
-<body>
+    <meta name="fb:card" content="summary" />
+    <meta name="fb:title" content="마스터 차트" />
+    <meta name="fb:description" content="투자의 미래는 마스터로 시작한다! 매우 직관적이면서도 스마트한 투자 방식으로 새로운 미래를 경험해보세요!" />
 
-  <section id="img1">
-    <img src="./img/Group 312.png" alt="section-image">
-  </section>
-  <section id="img2">
-    <img src="./img/Group 313.png" alt="section-image">
-  </section>
-  <section id="img3">
-    <img src="./img/Group 314.png" alt="section-image">
-  </section>
-  <section id="img4">
-    <img src="./img/Group 315.png" alt="section-image">
-  </section>
-  <section id="img5">
-    <img src="./img/Group 316.png" alt="section-image">
-  </section>
-  <section id="img6">
-    <img src="./img/Group 325.png" alt="section-image">
-  </section>
-  <!-- Video -->
-  <section id="img7">
-    <img src="./img/Group 318.png" alt="section-image">
-    <div class="video-box">
-      <video src="./media/masteri5.mp4" controls loop muted></video>
-    </div>
-  </section>
-  <!-- Swiper -->
-  <section id="img8">
-    <img src="./img/Group 319.png" alt="section-image">
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="마스터 차트" />
+    <meta name="twitter:description" content="투자의 미래는 마스터로 시작한다! 매우 직관적이면서도 스마트한 투자 방식으로 새로운 미래를 경험해보세요!" />
+    <meta property="og:image" content="https://master-chart.com/ico/sns.png" />
+    <meta name="fb:image" content="https://master-chart.com/ico/sns.png" />
+    <meta name="twitter:image" content="https://master-chart.com/ico/sns.png" />
+
+    <meta property="og:url" content="https://master-chart.com" />
+    <link rel="canonical" href="https://master-chart.com" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="imagetoolbar" content="no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <title>마스터 차트</title>
+
+    <link rel="shortcut icon" href="https://master-chart.com/ico/favicon-16x16.ico" />
+    <link rel="icon" href="https://master-chart.com/ico/favicon-16x16.ico" />
+    <link rel="apple-touch-icon" sizes="57x57" href="https://master-chart.com/ico/favicon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="https://master-chart.com/ico/favicon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="https://master-chart.com/ico/favicon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="https://master-chart.com/ico/favicon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="https://master-chart.com/ico/favicon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="https://master-chart.com/ico/favicon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="https://master-chart.com/ico/favicon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="https://master-chart.com/ico/favicon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="https://master-chart.com/ico/favicon-180x180.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="https://master-chart.com/ico/favicon-192x192.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="https://master-chart.com/ico/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="https://master-chart.com/ico/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="https://master-chart.com/ico/favicon-16x16.png" />
+
+    <meta name="naver-site-verification" content="420abc408da0cf8ff0652d94e4102bcecda3633f" />
+    <meta name="google-site-verification" content="N7Mad2FZmbambAik5G9k2bwEim4PhFlg5-k__710p08" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <section id="img1">
+      <img src="./img/Group 312.png" alt="section-image" />
+    </section>
+    <section id="img2">
+      <img src="./img/Group 313.png" alt="section-image" />
+    </section>
+    <section id="img3">
+      <img src="./img/Group 314.png" alt="section-image" />
+    </section>
+    <section id="img4">
+      <img src="./img/Group 315.png" alt="section-image" />
+    </section>
+    <section id="img5">
+      <img src="./img/Group 316.png" alt="section-image" />
+    </section>
+    <section id="img6">
+      <img src="./img/Group 325.png" alt="section-image" />
+    </section>
+    <!-- Video -->
+    <section id="img7">
+      <img src="./img/Group 318.png" alt="section-image" />
+      <div class="video-box">
+        <video src="./media/masteri5.mp4" controls loop muted></video>
+      </div>
+    </section>
     <!-- Swiper -->
-    <div class="analyst__swiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <img src="./img/analyst01.png" alt="analyst">
-          <div class="analyst-name">dong hyun kim</div>
-        </div>
-        <div class="swiper-slide">
-          <img src="./img/analyst02.png" alt="analyst">
-          <div class="analyst-name">derek son</div>
-        </div>
-        <div class="swiper-slide">
-          <img src="./img/analyst03.png" alt="analyst">
-          <div class="analyst-name">young min park</div>
-        </div>
-        <div class="swiper-slide">
-          <img src="./img/analyst04.png" alt="analyst">
-          <div class="analyst-name">na ri lee</div>
-        </div>
-        <div class="swiper-slide">
-          <img src="./img/analyst05.png" alt="analyst">
-          <div class="analyst-name">si woo kim</div>
+    <section id="img8">
+      <img src="./img/Group 319.png" alt="section-image" />
+      <!-- Swiper -->
+      <div class="analyst__swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./img/analyst01.png" alt="analyst" />
+            <div class="analyst-name">dong hyun kim</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/analyst02.png" alt="analyst" />
+            <div class="analyst-name">derek son</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/analyst03.png" alt="analyst" />
+            <div class="analyst-name">young min park</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/analyst04.png" alt="analyst" />
+            <div class="analyst-name">na ri lee</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/analyst05.png" alt="analyst" />
+            <div class="analyst-name">si woo kim</div>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <footer id="footer">
-    <p class="company__name container">reverse solution</p>
-    <hr>
-    <div class="wrapper container">
-      <p class="description">Name. Reverse Solution & Noti Tech | Address. Seoul, Korea</p>
-      <p class="copyright">COPYRIGHT © BITSOLUTION ALL RIGHTS RESERVED</p>
-    </div>
-  </footer>
+    <footer id="footer">
+      <p class="company__name container">reverse solution</p>
+      <hr />
+      <div class="wrapper container">
+        <p class="description">Name. Reverse Solution & Noti Tech | Address. Seoul, Korea</p>
+        <p class="copyright">COPYRIGHT © BITSOLUTION ALL RIGHTS RESERVED</p>
+      </div>
+    </footer>
 
-  <!-- SCRIPT -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <script>
-    document.querySelector('video').playbackRate = 2;
+    <!-- SCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      document.querySelector("video").playbackRate = 2;
 
-    var swiper = new Swiper(".analyst__swiper", {
-      autoplay: {
-        delay: 1,
-        disableOnInteraction: false,
-      },
-      speed: 8e3,
-      loop: true,
-      slidesPerView: 3,
-      spaceBetween: 30,
-    });
-  </script>
-
-</body>
-
+      var swiper = new Swiper(".analyst__swiper", {
+        autoplay: {
+          delay: 1,
+          disableOnInteraction: false,
+        },
+        speed: 8e3,
+        loop: true,
+        slidesPerView: 3,
+        spaceBetween: 30,
+      });
+    </script>
+  </body>
 </html>
